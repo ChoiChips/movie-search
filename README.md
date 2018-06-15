@@ -3,6 +3,7 @@
 ## Description:
 
 Basic movie search using the [OMDB API](https://www.omdbapi.com/)
+[Screenshot](https://imgur.com/a/Pl6Nk0a)
 
 ## Built With:
 
