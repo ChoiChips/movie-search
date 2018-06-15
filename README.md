@@ -30,7 +30,7 @@ We could add more parameters to the search other than title, such as year, actor
 - **What documentation, websites, papers, etc. did you consult for this assignment?**
 I mostly used the [Ruby on Rails Guides](http://guides.rubyonrails.org/api_documentation_guidelines.html) for syntax checks and [Stack Overflow](https://stackoverflow.com/) for when I had specific usage questions (when to use form_tag vs form_for, controller actions, etc)
 
-- **What third-party libraries or other tools does your application use? How did you choose each library or framework you used?**
+- **What third-party libraries or other tools does your application use? How did you choose each library or framework you used?**  
 [Foundation](https://github.com/zurb/foundation-rails) - Styling  
 [Pry](https://github.com/pry/pry) - Debugging  
 [Rspec](https://github.com/rspec/rspec) - Testing  
