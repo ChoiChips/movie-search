@@ -28,11 +28,7 @@ I mostly used the [Ruby on Rails Guides](http://guides.rubyonrails.org/api_docum
 Most of these gems/libraries I learned during my time at Launch Academy except for HTTParty, which I recently started using on my own. I chose these gems because they are (for the most part) simple and uncomplicated to use with good documentation for troubleshooting.
 
 - **How long did you spend on this exercise? If you had unlimited time to spend on this, how would you spend it and how would you prioritize each item?**
-I spent about 1-2 on the actual exercise (including testing) and about 30-40 minutes for answering questions/formatting.
-
-If I had unlimited time, I would definitely work more on styling of the landing page and the way the search results are displayed. I think that making sites/apps user friendly and "pretty" are crucially important to success. 
-
-After that, I would probably incorporate those other features that I mentioned above, in the following order: tiles with links to show pages, community based features, and increased search functionality.
+I spent about 1-2 on the actual exercise (including testing) and about 30-40 minutes for answering questions/formatting. If I had unlimited time, I would definitely work more on styling of the landing page and the way the search results are displayed. I think that making sites/apps user friendly and "pretty" are crucially important to success. After that, I would probably incorporate those other features that I mentioned above, in the following order: tiles with links to show pages, community based features, and increased search functionality.
 
 - **If you were going to implement a level of automated testing to prepare this for a production environment, how would you go about doing so?**
 I think I would use a continuous integration resource such as Codeship to run all my tests with every push to Github. I know that there's also things like screenshot comparison testing and the autotest gem for Rails, but I would need to do more research to implement them.
