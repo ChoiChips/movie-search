@@ -31,12 +31,12 @@ We could add more parameters to the search other than title, such as year, actor
 I mostly used the [Ruby on Rails Guides](http://guides.rubyonrails.org/api_documentation_guidelines.html) for syntax checks and [Stack Overflow](https://stackoverflow.com/) for when I had specific usage questions (when to use form_tag vs form_for, controller actions, etc)
 
 - **What third-party libraries or other tools does your application use? How did you choose each library or framework you used?**
-* [Foundation](https://github.com/zurb/foundation-rails) - Styling
-* [Pry](https://github.com/pry/pry) - Debugging
-* [Rspec](https://github.com/rspec/rspec) - Testing
-* [Capybara](https://github.com/teamcapybara/capybara) - Testing
-* [Dotenv](https://github.com/bkeepers/dotenv) - Securing API credentials
-* [HTTParty](https://github.com/jnunemaker/httparty) - HTTP calls
+[Foundation](https://github.com/zurb/foundation-rails) - Styling  
+[Pry](https://github.com/pry/pry) - Debugging  
+[Rspec](https://github.com/rspec/rspec) - Testing  
+[Capybara](https://github.com/teamcapybara/capybara) - Testing  
+[Dotenv](https://github.com/bkeepers/dotenv) - Securing API credentials  
+[HTTParty](https://github.com/jnunemaker/httparty) - HTTP calls  
 Most of these gems/libraries I learned during my time at Launch Academy except for HTTParty, which I recently started using on my own. I chose these gems because they are (for the most part) simple and uncomplicated to use with good documentation for troubleshooting.
 
 - **How long did you spend on this exercise? If you had unlimited time to spend on this, how would you spend it and how would you prioritize each item?**
