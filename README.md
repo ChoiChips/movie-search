@@ -9,7 +9,18 @@ Basic movie search using the [OMDB API](https://www.omdbapi.com/)
 
 * [Ruby on Rails](http://rubyonrails.org/)
 
-## FAQ
+## Setup:
+To set up on local machine:
+1. Clone repo
+2. Make sure you have Rails and bundler installed
+3. Run bundle exec install
+4. Run rails s
+5. Visit localhost:3000
+
+For testing:
+1. Run rake db:test:prepare then rspec
+
+## FAQ:
 - **At a high level, how does your app work?**
 When a user enters a movie title and clicks "Search", the form sends their query to the Rails backend where the controller makes an API call to the OMDB API with the query parameters and API key. The OMDB API then responds with 10 movies that fit this criteria which are then displayed underneath the search bar.
 
