@@ -1,0 +1,30 @@
+<h1 class="text-center">Movie Search Form</h1>
+
+<div class="row">
+  <%= form_tag(root_path, method: "get") do %>
+  <%= label_tag(:movie_title, "Search by movie title:") %>
+  <%= text_field_tag(:movie_title) %>
+  <%= submit_tag("Search") %>
+  <% end %>
+</div>
+
+<% if @movie_results.instance_of? Array %>
+  <h2 class="text-center">Showing search results for "<%= @movie_title %>":</h2>
+  <div class="row text-center">
+    <% @movie_results.each do |movie| %>
+    <div class="column small-12 medium-6 large-4">
+      <h3><%= movie['Title'] %></h3>
+      <% if movie['Poster'] == 'N/A' %>
+        <h5>No Available Movie Poster</h5>
+      <% else %>
+        <%= image_tag("#{movie['Poster']}", class: 'search-img') %>
+      <% end %>
+    </div>
+    <% end %>
+  </div>
+<% elsif @movie_results.instance_of? String %>
+  <h2 class="text-center">Showing search results for "<%= @movie_title %>":</h2>
+  <h4 class="text-center">
+    <%= @movie_results %>
+  </h4>
+<% end %>

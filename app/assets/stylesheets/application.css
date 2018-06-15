@@ -1,0 +1,37 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require foundation_and_overrides
+
+ */
+
+ .search-img {
+ width: 300px;
+ height: 400px;
+ }
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1493804714600-6edb1cd93080?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aded245d3bfad86e0ec454a8f6b2eee8&auto=format&fit=crop&w=1500&q=80');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 500px;
+}
