@@ -44,3 +44,5 @@ I spent about 1-2 on the actual exercise (including testing) and about 30-40 min
 
 - **If you were going to implement a level of automated testing to prepare this for a production environment, how would you go about doing so?**
 I think I would use a continuous integration resource such as Codeship to run all my tests with every push to Github. I know that there's also things like screenshot comparison testing and the autotest gem for Rails, but I would need to do more research to implement them.
+
+EDIT: Just realized that I might have misinterpreted this last question. I have already implemented a couple basic tests using RSpec and Capybara for my controller and search feature. My controller test checks to make sure the 3rd party API call is returning the correct data/data type while my feature test checks to make sure my search function is displaying results on the page. 
